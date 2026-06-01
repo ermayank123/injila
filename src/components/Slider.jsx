@@ -14,7 +14,7 @@ const Slider = () => {
   const [loading, setLoading] = useState(true);
 
   // Apne Laravel ka base URL yahan ek baar set kar dein
-  const BASE_URL = "https://injila.in";
+  const BASE_URL = "https://admin.injila.in";
 
   useEffect(() => {
     axios

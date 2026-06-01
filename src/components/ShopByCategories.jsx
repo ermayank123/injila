@@ -68,7 +68,7 @@ import { Pagination } from "swiper/modules";
 
 const ShopByCategories = () => {
   const [subCategories, setSubCategories] = useState([]);
-  const BASE_URL = "https://injila.in";
+  const BASE_URL = "https://admin.injila.in";
   
  
   const JEWELLERY_ID = 29; 

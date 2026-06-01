@@ -67,7 +67,7 @@ const CollectionSlider = () => {
   const [selectedCat, setSelectedCat] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "https://injila.in";
+  const BASE_URL = "https://admin.injila.in";
 
   useEffect(() => {
     axios.get(`${BASE_URL}/api/fetch-categories`)

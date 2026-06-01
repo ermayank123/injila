@@ -7,7 +7,7 @@ const ArtificialJewellery = () => {
   const [products, setProducts] = useState([]);
   // const BASE_URL = "https://injila.in";
     const [subCategories, setSubCategories] = useState([]);
-    const BASE_URL = "https://injila.in";
+    const BASE_URL = "https://admin.injila.in";
 
 
    const JEWELLERY_ID = 30; 

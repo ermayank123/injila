@@ -3,7 +3,7 @@ import axios from "axios";
 
 const TrendingSection = () => {
   const [trendingItems, setTrendingItems] = useState([]);
-  const BASE_URL = "https://injila.in"; 
+  const BASE_URL = "https://admin.injila.in"; 
 
   useEffect(() => {
     axios.get(`${BASE_URL}/api/fetch-products?trending=1`)

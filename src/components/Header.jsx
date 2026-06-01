@@ -383,7 +383,7 @@ const Header = ({ setShowEnquiryForm }) => {
     kurtis: []
   });
 
-  const BASE_URL = "https://injila.in";
+  const BASE_URL = "https://admin.injila.in";
 
   useEffect(() => {
 
