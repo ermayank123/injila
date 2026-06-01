@@ -13,7 +13,7 @@ const CombinedProductPage = () => {
   const [artificialProducts, setArtificialProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "https://injila.in";
+  const BASE_URL = "https://admin.injila.in";
 
   useEffect(() => {
     const fetchData = async () => {
